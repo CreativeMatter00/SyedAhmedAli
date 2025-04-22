@@ -80,7 +80,6 @@ export default function OrgChartPage() {
     setTimeout(() => setSelectedEmployee(null), 300) // Clear the selected employee after the animation completes
   }
 
-  // Software Technology Department Data
   const softwareDepartment: Employee = {
     id: "1",
     name: "Anisul Islam",
@@ -111,7 +110,7 @@ export default function OrgChartPage() {
           },
           {
             id: "1-1-3",
-            name: "Md. Muhaimin Sk",
+            name: "Md. Muhashin Sk",
             title: "Analyst Programmer",
             department: "Software Technology",
             subDepartment: "Oracle",
@@ -132,14 +131,14 @@ export default function OrgChartPage() {
           },
           {
             id: "1-1-6",
-            name: "Nusrat Sultana",
-            title: "Jr. Programmer",
+            name: "Md. Jamilul Islam",
+            title: "Analyst Programmer",
             department: "Software Technology",
             subDepartment: "Oracle",
           },
           {
             id: "1-1-7",
-            name: "Sabir Ahmed",
+            name: "Muhammad Rashedul Alam",
             title: "Programmer",
             department: "Software Technology",
             subDepartment: "Oracle",
@@ -153,25 +152,18 @@ export default function OrgChartPage() {
           },
           {
             id: "1-1-9",
-            name: "Muhammad Rashidul Alam",
-            title: "Programmer",
+            name: "Nasifat Sultana",
+            title: "Jr. Programmer",
             department: "Software Technology",
             subDepartment: "Oracle",
           },
           {
             id: "1-1-10",
-            name: "Ashraf Siddique",
-            title: "Trainee Support Engineer",
+            name: "Sabbir Ahmed",
+            title: "Trainee Programmer",
             department: "Software Technology",
             subDepartment: "Oracle",
-          },
-          {
-            id: "1-1-11",
-            name: "Md. Almahamud",
-            title: "Trainee Technical Support Engineer",
-            department: "Software Technology",
-            subDepartment: "Oracle",
-          },
+          }
         ],
       },
       {
@@ -189,18 +181,32 @@ export default function OrgChartPage() {
             children: [
               {
                 id: "1-2-1-1",
-                name: "Md. Jahirul Islam",
-                title: "Trainee Technical Support Engineer",
+                name: "Md. Farhad Hossain",
+                title: "Programmer",
                 department: "Software Technology",
                 subDepartment: "Oracle Apex",
               },
               {
                 id: "1-2-1-2",
-                name: "Md. Fahad Hossain",
-                title: "Programmer",
+                name: "Md. Pabel Hossain",
+                title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "Oracle Apex",
               },
+              {
+                id: "1-2-1-3",
+                name: "Md. Faysal Ahmed",
+                title: "Jr. Programmer",
+                department: "Software Technology",
+                subDepartment: "Oracle Apex",
+              },
+              {
+                id: "1-2-1-4",
+                name: "Israt Jahan Binta Kabir",
+                title: "Trainee Programmer",
+                department: "Software Technology",
+                subDepartment: "Oracle Apex",
+              }
             ],
           },
           {
@@ -212,67 +218,39 @@ export default function OrgChartPage() {
             children: [
               {
                 id: "1-2-2-1",
-                name: "Mohammad Jakir Hossain",
-                title: "Sr. Programmer",
-                department: "Software Technology",
-                subDepartment: "Java",
-              },
-              {
-                id: "1-2-2-2",
-                name: "Md. Jamilul Islam",
-                title: "Analyst Programmer",
-                department: "Software Technology",
-                subDepartment: "Java",
-              },
-              {
-                id: "1-2-2-3",
                 name: "Md. Firoj Mahmud",
                 title: "Sr. Programmer",
                 department: "Software Technology",
                 subDepartment: "Java",
               },
               {
-                id: "1-2-2-4",
-                name: "Md. Aminul Haq",
-                title: "Sr. Programmer",
-                department: "Software Technology",
-                subDepartment: "Java",
-              },
-              {
-                id: "1-2-2-5",
+                id: "1-2-2-2",
                 name: "Sakib Ahmed",
                 title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "Java",
               },
               {
-                id: "1-2-2-6",
+                id: "1-2-2-3",
                 name: "Din Islam",
                 title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "Java",
               },
               {
-                id: "1-2-2-7",
-                name: "Md. Foysal Ahmed",
-                title: "Jr. Programmer",
-                department: "Software Technology",
-                subDepartment: "Java",
-              },
-              {
-                id: "1-2-2-8",
-                name: "Sifat Al Arif",
-                title: "Intern",
-                department: "Software Technology",
-                subDepartment: "Java",
-              },
-              {
-                id: "1-2-2-9",
-                name: "Israt Jahan Binta Kabir",
+                id: "1-2-2-4",
+                name: "Mahzabin Ferdous",
                 title: "Trainee Programmer",
                 department: "Software Technology",
                 subDepartment: "Java",
               },
+              {
+                id: "1-2-2-5",
+                name: "Md. Jahir Uddin",
+                title: "Trainee Programmer",
+                department: "Software Technology",
+                subDepartment: "Java",
+              }
             ],
           },
           {
@@ -284,60 +262,53 @@ export default function OrgChartPage() {
             children: [
               {
                 id: "1-2-3-1",
-                name: "Md. Aminul Hossain",
+                name: "Md. Aminul Huq",
                 title: "Sr. Programmer",
                 department: "Software Technology",
                 subDepartment: "PHP",
               },
               {
                 id: "1-2-3-2",
-                name: "Md. Aminul Haq",
-                title: "Sr. Programmer",
+                name: "Khan Rafaat Abtahe",
+                title: "Programmer",
                 department: "Software Technology",
                 subDepartment: "PHP",
               },
               {
                 id: "1-2-3-3",
-                name: "Md. Shobuj Hossain",
-                title: "Jr. Programmer",
+                name: "Md. Sohel Rana Tipu",
+                title: "Programmer",
                 department: "Software Technology",
                 subDepartment: "PHP",
               },
               {
                 id: "1-2-3-4",
-                name: "Mahrabin Ferdous",
-                title: "Trainee Programmer",
+                name: "Kazi Moazzem Hossain",
+                title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "PHP",
               },
               {
                 id: "1-2-3-5",
-                name: "Md. Tahir Uddin",
-                title: "Trainee Programmer",
+                name: "Md. Shohag Hossain",
+                title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "PHP",
               },
               {
                 id: "1-2-3-6",
-                name: "Muhtasim Fuad Ayon",
-                title: "Trainee Programmer",
-                department: "Software Technology",
-                subDepartment: "PHP",
-              },
-              {
-                id: "1-2-3-7",
                 name: "Azizul Hakim Anik",
                 title: "Trainee Programmer",
                 department: "Software Technology",
                 subDepartment: "PHP",
               },
               {
-                id: "1-2-3-8",
+                id: "1-2-3-7",
                 name: "Shahria Sultana Sunnah",
                 title: "Trainee Programmer",
                 department: "Software Technology",
                 subDepartment: "PHP",
-              },
+              }
             ],
           },
           {
@@ -363,25 +334,25 @@ export default function OrgChartPage() {
               },
               {
                 id: "1-2-4-3",
-                name: "Khan Faizan Akhila",
-                title: "Programmer",
+                name: "Rokib Rahman",
+                title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "Mobile Apps",
               },
               {
                 id: "1-2-4-4",
-                name: "Md. Sobel Rana Tipu",
-                title: "Programmer",
+                name: "Md. Nayeem",
+                title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "Mobile Apps",
               },
               {
                 id: "1-2-4-5",
-                name: "Kazi Moazzem Hossain",
+                name: "Md. Shakil Ahmed (MA)",
                 title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "Mobile Apps",
-              },
+              }
             ],
           },
           {
@@ -400,62 +371,76 @@ export default function OrgChartPage() {
               },
               {
                 id: "1-2-5-2",
-                name: "Robib Rahman",
+                name: "Rizeya Rabbi",
                 title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "Automation",
               },
               {
                 id: "1-2-5-3",
-                name: "Md. Naymur",
+                name: "Saad Ahmed",
                 title: "Jr. Programmer",
                 department: "Software Technology",
                 subDepartment: "Automation",
-              },
-              {
-                id: "1-2-5-4",
-                name: "Md. Shakil Ahmed",
-                title: "Jr. Programmer",
-                department: "Software Technology",
-                subDepartment: "Automation",
-              },
+              }
             ],
           },
           {
             id: "1-2-6",
-            name: "MEAN",
-            title: "MEAN Stack",
+            name: "MERN",
+            title: "MERN Stack",
             department: "Software Technology",
-            subDepartment: "MEAN",
+            subDepartment: "MERN",
             children: [
               {
                 id: "1-2-6-1",
                 name: "Mahfuz Islam",
-                title: "Full-Stack Developer",
+                title: "Full-stack Developer",
                 department: "Software Technology",
-                subDepartment: "MEAN",
+                subDepartment: "MERN",
               },
               {
                 id: "1-2-6-2",
-                name: "Md. Golam Muid Talukder",
-                title: "Full-Stack Developer",
+                name: "Quazi Samiha Tasnim",
+                title: "Jr. Front End Developer",
                 department: "Software Technology",
-                subDepartment: "MEAN",
+                subDepartment: "MERN",
               },
               {
                 id: "1-2-6-3",
-                name: "Rusya Rabbi",
-                title: "Jr. Programmer",
+                name: "Meraj Hossain",
+                title: "Jr. Front End Developer",
                 department: "Software Technology",
-                subDepartment: "MEAN",
+                subDepartment: "MERN",
               },
               {
                 id: "1-2-6-4",
-                name: "Saad Ahmed",
-                title: "Jr. Programmer",
+                name: "Minhazur Rahman",
+                title: "Frontend Developer",
                 department: "Software Technology",
-                subDepartment: "MEAN",
+                subDepartment: "MERN",
               },
+              {
+                id: "1-2-6-5",
+                name: "Mohammad Mahabub Alam",
+                title: "Intern",
+                department: "Software Technology",
+                subDepartment: "MERN",
+              },
+              {
+                id: "1-2-6-6",
+                name: "Kamrul Hasan Bhuiyan",
+                title: "Intern",
+                department: "Software Technology",
+                subDepartment: "MERN",
+              },
+              {
+                id: "1-2-6-7",
+                name: "Abir Hasan Al Amin",
+                title: "Intern",
+                department: "Software Technology",
+                subDepartment: "MERN",
+              }
             ],
           },
           {
@@ -467,72 +452,36 @@ export default function OrgChartPage() {
             children: [
               {
                 id: "1-2-7-1",
-                name: "Mohd Zarir",
-                title: "Full-stack Developer",
+                name: "Md. Nurnobi Islam",
+                title: "Trainee Programmer",
                 department: "Software Technology",
                 subDepartment: "Python",
               },
               {
                 id: "1-2-7-2",
-                name: "Anika Anjum",
-                title: "Jr. Front End Developer",
+                name: "Md. Tarek Aziz",
+                title: "Trainee Programmer",
                 department: "Software Technology",
                 subDepartment: "Python",
               },
               {
                 id: "1-2-7-3",
-                name: "Md. Tarek Aziz",
-                title: "Jr. Developer",
-                department: "Software Technology",
-                subDepartment: "Python",
-              },
-              {
-                id: "1-2-7-4",
-                name: "Merzi Hossain",
-                title: "Jr. Front End Developer",
-                department: "Software Technology",
-                subDepartment: "Python",
-              },
-              {
-                id: "1-2-7-5",
-                name: "Mohammad Mahtabob Alam",
+                name: "Anika Anjum",
                 title: "Intern",
                 department: "Software Technology",
                 subDepartment: "Python",
-              },
-              {
-                id: "1-2-7-6",
-                name: "Kamrul Hasan Bhuiyan",
-                title: "Intern",
-                department: "Software Technology",
-                subDepartment: "Python",
-              },
-              {
-                id: "1-2-7-7",
-                name: "Abu Hasan Al Amin",
-                title: "Intern",
-                department: "Software Technology",
-                subDepartment: "Python",
-              },
-              {
-                id: "1-2-7-8",
-                name: "Mubasur Rahman",
-                title: "Frontend Developer",
-                department: "Software Technology",
-                subDepartment: "Python",
-              },
+              }
             ],
-          },
+          }
         ],
-      },
-    ],
-  }
+      }
+    ]
+  };
 
-  // Infrastructure Department Data
   const infrastructureDepartment: Employee = {
     id: "2",
-    name: "Muhammad Mahedi Hasan",
-    title: "Head of Infrastructure & Database",
+    name: "Muhammad Mehedi Hasan",
+    title: "Manager, Database Management",
     department: "Infrastructure Technology",
     image: "/images/ati-logo.png",
     children: [
@@ -546,10 +495,17 @@ export default function OrgChartPage() {
           {
             id: "2-1-1",
             name: "Md. Sirajul Islam",
-            title: "Database Administrator",
+            title: "Assistant Database Administrator",
             department: "Infrastructure Technology",
             subDepartment: "DBMS",
           },
+          {
+            id: "2-1-2",
+            name: "Sadman Rahamat Bishal",
+            title: "Trainee Database Administrator",
+            department: "Infrastructure Technology",
+            subDepartment: "DBMS",
+          }
         ],
       },
       {
@@ -561,46 +517,46 @@ export default function OrgChartPage() {
         children: [
           {
             id: "2-2-1",
-            name: "Altmul Rajib Shuvo",
-            title: "System Engineer",
+            name: "Alimul Rajib Shuvo",
+            title: "Sr. System & Support Engineer",
             department: "Infrastructure Technology",
             subDepartment: "System Service",
           },
           {
             id: "2-2-2",
             name: "Asif Reza",
-            title: "System Engineer",
+            title: "Sr. System & Support Engineer",
             department: "Infrastructure Technology",
             subDepartment: "System Service",
           },
           {
             id: "2-2-3",
-            name: "Md. Shahriar Hossain",
+            name: "Md. Yousha Islam",
             title: "System Engineer",
             department: "Infrastructure Technology",
             subDepartment: "System Service",
           },
           {
             id: "2-2-4",
-            name: "Md. Zakaria",
+            name: "Md. Jakaria",
             title: "System Engineer",
             department: "Infrastructure Technology",
             subDepartment: "System Service",
           },
           {
             id: "2-2-5",
-            name: "Md. Mafidul Islam",
-            title: "System Engineer",
+            name: "Montasir Mamun",
+            title: "Jr. System Engineer",
             department: "Infrastructure Technology",
             subDepartment: "System Service",
           },
           {
             id: "2-2-6",
-            name: "Abdul Kadir",
-            title: "System Engineer",
+            name: "Md. Labib Hasan",
+            title: "Intern",
             department: "Infrastructure Technology",
             subDepartment: "System Service",
-          },
+          }
         ],
       },
       {
@@ -613,7 +569,7 @@ export default function OrgChartPage() {
           {
             id: "2-3-1",
             name: "Md. Tanzimul Hasan",
-            title: "Network Engineer",
+            title: "System & Support Engineer",
             department: "Infrastructure Technology",
             subDepartment: "Network Service",
           },
@@ -623,47 +579,67 @@ export default function OrgChartPage() {
             title: "Network Engineer",
             department: "Infrastructure Technology",
             subDepartment: "Network Service",
-          },
+          }
         ],
       },
       {
         id: "2-4",
-        name: "Hardware Service",
-        title: "Hardware Services",
+        name: "Support Service",
+        title: "Support Services",
         department: "Infrastructure Technology",
-        subDepartment: "Hardware Service",
+        subDepartment: "Support Service",
         children: [
           {
             id: "2-4-1",
             name: "Md. Abdul Latif",
-            title: "Hardware Engineer",
+            title: "Support Engineer",
             department: "Infrastructure Technology",
-            subDepartment: "Hardware Service",
+            subDepartment: "Support Service",
           },
           {
             id: "2-4-2",
             name: "Md. Romik Babu",
-            title: "Hardware Engineer",
+            title: "Jr. Support Engineer",
             department: "Infrastructure Technology",
-            subDepartment: "Hardware Service",
+            subDepartment: "Support Service",
           },
           {
             id: "2-4-3",
-            name: "Md. Jamil Hosen",
-            title: "Hardware Engineer",
+            name: "Md. Mafidul Islam",
+            title: "Jr. Support Engineer",
             department: "Infrastructure Technology",
-            subDepartment: "Hardware Service",
+            subDepartment: "Support Service",
           },
+          {
+            id: "2-4-4",
+            name: "Abdul Kadir",
+            title: "Junior System Engineer",
+            department: "Infrastructure Technology",
+            subDepartment: "Support Service",
+          },
+          {
+            id: "2-4-5",
+            name: "Md. Jamil Hosen",
+            title: "Jr. Support Engineer",
+            department: "Infrastructure Technology",
+            subDepartment: "Support Service",
+          },
+          {
+            id: "2-4-6",
+            name: "Md. Shahriar Hossain",
+            title: "Support Engineer",
+            department: "Infrastructure Technology",
+            subDepartment: "Support Service",
+          }
         ],
-      },
-    ],
-  }
+      }
+    ]
+  };
 
-  // Creative Department Data
   const creativeDepartment: Employee = {
     id: "3",
-    name: "Head of Creative",
-    title: "Head of Creative Department",
+    name: "Hifzul Karim Khan",
+    title: "Head of Creative",
     department: "Creative",
     image: "/images/ati-logo.png",
     children: [
@@ -676,46 +652,53 @@ export default function OrgChartPage() {
         children: [
           {
             id: "3-1-1",
-            name: "Md. Abdul Aziz Mazumder",
-            title: "UI/UX Designer",
+            name: "Umme Kulsum Suriya",
+            title: "Intern",
             department: "Creative",
             subDepartment: "UI/UX",
           },
           {
             id: "3-1-2",
-            name: "Mushfiq Qayyum",
-            title: "UI/UX Designer",
+            name: "Md. Abdul Aziz Mazumder",
+            title: "Jr. UI/UX Designer",
             department: "Creative",
             subDepartment: "UI/UX",
           },
           {
             id: "3-1-3",
-            name: "Tanvir Paytam",
-            title: "UI/UX Designer",
+            name: "Mushfiq Qayyum",
+            title: "Jr. UI/UX Designer",
             department: "Creative",
             subDepartment: "UI/UX",
           },
           {
             id: "3-1-4",
-            name: "Md. Shakil Ahmed",
-            title: "UI/UX Designer",
+            name: "Tanvir Rayhan",
+            title: "Jr. UI/UX Designer",
             department: "Creative",
             subDepartment: "UI/UX",
           },
           {
             id: "3-1-5",
-            name: "Bisni Biswas",
-            title: "UI/UX Designer",
+            name: "Md. Shakil Ahmed",
+            title: "Jr. UI/UX Designer",
             department: "Creative",
             subDepartment: "UI/UX",
           },
           {
             id: "3-1-6",
-            name: "Zerin Taslim",
-            title: "UI/UX Designer",
+            name: "Binti Biswas",
+            title: "Trainee UI/UX Designer",
             department: "Creative",
             subDepartment: "UI/UX",
           },
+          {
+            id: "3-1-7",
+            name: "Zerin Taslim",
+            title: "Jr. UI/UX Designer",
+            department: "Creative",
+            subDepartment: "UI/UX",
+          }
         ],
       },
       {
@@ -727,70 +710,133 @@ export default function OrgChartPage() {
         children: [
           {
             id: "3-2-1",
-            name: "Hafiz",
-            title: "Creative Designer",
+            name: "Nihal Habib Ahmed",
+            title: "Head of Business Communication",
             department: "Creative",
             subDepartment: "Creative Design",
           },
           {
             id: "3-2-2",
-            name: "Arinommu Roy",
-            title: "Creative Designer",
+            name: "Avimannu Roy",
+            title: "Copy Supervisor Strategist",
             department: "Creative",
             subDepartment: "Creative Design",
           },
           {
             id: "3-2-3",
-            name: "Farnaz Haque Nim",
-            title: "Creative Designer",
+            name: "Safquat Nazib",
+            title: "Copywriter",
             department: "Creative",
             subDepartment: "Creative Design",
           },
           {
             id: "3-2-4",
-            name: "Md. Ashequl Alam Raafe",
-            title: "Creative Designer",
+            name: "Md. Ashequl Alam Reefat",
+            title: "Graphies & Motion Designer",
             department: "Creative",
             subDepartment: "Creative Design",
           },
           {
             id: "3-2-5",
-            name: "Rahanur Rahman",
-            title: "Creative Designer",
+            name: "Tajrain Mahera Ali",
+            title: "Design & Illustration Executive",
             department: "Creative",
             subDepartment: "Creative Design",
           },
+          {
+            id: "3-2-6",
+            name: "Rahmatur Rahman",
+            title: "Graphies & Motion Designer",
+            department: "Creative",
+            subDepartment: "Creative Design",
+          },
+          {
+            id: "3-2-7",
+            name: "Meraz Ul Haque",
+            title: "Creative Matter",
+            department: "Creative",
+            subDepartment: "Creative Design",
+          }
         ],
       },
       {
         id: "3-3",
         name: "CSS",
-        title: "CSS Development",
+        title: "Customer Support and Service",
         department: "Creative",
         subDepartment: "CSS",
-        children: [],
-      },
-    ],
-  }
+        children: [
+          {
+            id: "3-3-1",
+            name: "Kazi Iffat Monowara",
+            title: "Client Servicing Executive",
+            department: "Creative",
+            subDepartment: "CSS",
+          },
+          {
+            id: "3-3-2",
+            name: "Merina Rashid",
+            title: "CSS Representative",
+            department: "Creative",
+            subDepartment: "CSS",
+          },
+          {
+            id: "3-3-3",
+            name: "Md. Mahfuzur Rahman Mishu",
+            title: "CSS Representative",
+            department: "Creative",
+            subDepartment: "CSS",
+          },
+          {
+            id: "3-3-4",
+            name: "Sumaya Sultana",
+            title: "Jr. CSS Representative",
+            department: "Creative",
+            subDepartment: "CSS",
+          },
+          {
+            id: "3-3-5",
+            name: "Sadia Afrin",
+            title: "Trainee CSS Representative",
+            department: "Creative",
+            subDepartment: "CSS",
+          },
+          {
+            id: "3-3-6",
+            name: "Mahmudur Rahman",
+            title: "Trainee CSS Representative",
+            department: "Creative",
+            subDepartment: "CSS",
+          },
+          {
+            id: "3-3-7",
+            name: "Mobarak Hosen Emon",
+            title: "Trainee",
+            department: "Creative",
+            subDepartment: "CSS",
+          }
+        ],
+      }
+    ]
+  };
 
-  // HR Department Data
   const hrDepartment: Employee = {
     id: "4",
     name: "Md. Mizan Hossain",
-    title: "Human Resource Management",
+    title: "Sr. Executive",
     department: "HR & Administration",
     image: "/images/ati-logo.png",
     children: [
       {
         id: "4-1",
-        name: "Mizanur Rahman",
-        title: "Executive, Admin",
+        name: "Admin",
+        title: "Administration",
         department: "HR & Administration",
         subDepartment: "Admin",
         children: [
           {
             id: "4-1-1",
-            name: "Md. Naim Uddin",
+            name: "Md. Nazim Uddin",
             title: "Sr. Office Assistant",
             department: "HR & Administration",
             subDepartment: "Admin",
@@ -804,7 +850,7 @@ export default function OrgChartPage() {
           },
           {
             id: "4-1-3",
-            name: "Md. Sagar Nahar",
+            name: "Md. Sagor Sarkar",
             title: "Office Guard",
             department: "HR & Administration",
             subDepartment: "Admin",
@@ -832,36 +878,70 @@ export default function OrgChartPage() {
           },
           {
             id: "4-1-7",
-            name: "Md. Anup Rahman",
+            name: "Md. Ataur Rahman",
             title: "Cleaner",
             department: "HR & Administration",
             subDepartment: "Admin",
           },
+          {
+            id: "4-1-8",
+            name: "Chandra Das",
+            title: "Cleaner",
+            department: "HR & Administration",
+            subDepartment: "Admin",
+          },
+          {
+            id: "4-1-9",
+            name: "Rafiqul Islam",
+            title: "Sr. Office Assistant",
+            department: "HR & Administration",
+            subDepartment: "Admin",
+          },
+          {
+            id: "4-1-10",
+            name: "Minhaj Sarker",
+            title: "Support Staff",
+            department: "HR & Administration",
+            subDepartment: "Admin",
+          }
         ],
       },
       {
         id: "4-2",
-        name: "Md. Sajjad Hossain",
-        title: "HR Executive",
+        name: "HR",
+        title: "Human Resources",
         department: "HR & Administration",
         subDepartment: "HR",
-        children: [],
-      },
-      {
-        id: "4-3",
-        name: "Obidullah Jr.",
-        title: "Executive Billing & Purchase",
-        department: "HR & Administration",
-        subDepartment: "Billing & Purchase",
-        children: [],
-      },
-    ],
-  }
+        children: [
+          {
+            id: "4-2-1",
+            name: "Md. Sajjad Hossain",
+            title: "Executive, HR & Admin",
+            department: "HR & Administration",
+            subDepartment: "HR",
+          },
+          {
+            id: "4-2-2",
+            name: "Mizanur Rahman",
+            title: "Executive, HR & Admin",
+            department: "HR & Administration",
+            subDepartment: "HR",
+          },
+          {
+            id: "4-2-3",
+            name: "Oliullah",
+            title: "Jr. Executive Billing & Purchase",
+            department: "HR & Administration",
+            subDepartment: "HR",
+          }
+        ],
+      }
+    ]
+  };
 
-  // Business Strategy Department Data
   const businessDepartment: Employee = {
     id: "5",
-    name: "Abu Saleh",
+    name: "Abu Saleh Yusuf",
     title: "Head of Business Strategy Engagement",
     department: "Business Strategy Engagement",
     image: "/images/ati-logo.png",
@@ -889,7 +969,7 @@ export default function OrgChartPage() {
           },
           {
             id: "5-1-3",
-            name: "Rahad Hasan Gayen",
+            name: "Rahad Hasan Chyon",
             title: "Jr. Business Process Coordinator",
             department: "Business Strategy Engagement",
             subDepartment: "Business Development",
@@ -903,21 +983,21 @@ export default function OrgChartPage() {
           },
           {
             id: "5-1-5",
-            name: "Foyzal Hasan Shakil",
+            name: "Foysal Hasan Shakil",
             title: "Marketing Associate",
             department: "Business Strategy Engagement",
             subDepartment: "Business Development",
           },
           {
             id: "5-1-6",
-            name: "Fahimidun Nabi",
+            name: "Fahmidun Nabi",
             title: "Marketing Associate",
             department: "Business Strategy Engagement",
             subDepartment: "Business Development",
           },
           {
             id: "5-1-7",
-            name: "Syeda Ramima Rahana Nadia",
+            name: "Syeda Ramima Rafsana Nadia",
             title: "Business Development Associate",
             department: "Business Strategy Engagement",
             subDepartment: "Business Development",
@@ -929,43 +1009,57 @@ export default function OrgChartPage() {
             department: "Business Strategy Engagement",
             subDepartment: "Business Development",
           },
+          {
+            id: "5-1-9",
+            name: "Mahadi Hassan Rasel",
+            title: "Technical Sales Associate",
+            department: "Business Strategy Engagement",
+            subDepartment: "Business Development",
+          }
         ],
       },
       {
         id: "5-2",
-        name: "Customer Service and Support",
-        title: "Customer Service and Support",
+        name: "Project Management",
+        title: "Project Management",
         department: "Business Strategy Engagement",
-        subDepartment: "Customer Service and Support",
+        subDepartment: "Project Management",
         children: [
           {
             id: "5-2-1",
-            name: "Md. Mahfuzur Rahman Mithu",
-            title: "CSR Representative",
+            name: "Maksuda Mila",
+            title: "Jr. Project Coordinator",
             department: "Business Strategy Engagement",
-            subDepartment: "Customer Service and Support",
+            subDepartment: "Project Management",
           },
           {
             id: "5-2-2",
-            name: "Sumaya Sultana",
-            title: "Assistant Service Lead",
+            name: "Fariha Tabassum Chinmoy",
+            title: "Jr. Project Coordinator",
             department: "Business Strategy Engagement",
-            subDepartment: "Customer Service and Support",
+            subDepartment: "Project Management",
           },
           {
             id: "5-2-3",
-            name: "Sadia Afrin",
-            title: "Trainee CSR Representative",
+            name: "Md. Moinul Islam Rakib",
+            title: "Jr. Project Coordinator",
             department: "Business Strategy Engagement",
-            subDepartment: "Customer Service and Support",
+            subDepartment: "Project Management",
           },
           {
             id: "5-2-4",
-            name: "Morzina Rashid",
-            title: "CSR Representative",
+            name: "Md. Al Imran Tonmoy",
+            title: "Intern",
             department: "Business Strategy Engagement",
-            subDepartment: "Customer Service and Support",
+            subDepartment: "Project Management",
           },
+          {
+            id: "5-2-5",
+            name: "Nazmul Hassan",
+            title: "Trainee Project Coordinator",
+            department: "Business Strategy Engagement",
+            subDepartment: "Project Management",
+          }
         ],
       },
       {
@@ -984,68 +1078,1044 @@ export default function OrgChartPage() {
           },
           {
             id: "5-3-2",
-            name: "Nrittisha Yasmin",
+            name: "Natasha Yasmin",
             title: "Jr. Software Quality Assurance",
             department: "Business Strategy Engagement",
             subDepartment: "Software Quality Assurance",
-          },
+          }
         ],
       },
       {
         id: "5-4",
-        name: "Project Management",
-        title: "Project Management",
-        department: "Business Strategy Engagement",
-        subDepartment: "Project Management",
-        children: [
-          {
-            id: "5-4-1",
-            name: "Farha Tabassum Chowdhury",
-            title: "Jr. Project Coordinator",
-            department: "Business Strategy Engagement",
-            subDepartment: "Project Management",
-          },
-          {
-            id: "5-4-2",
-            name: "Md. Moinul Islam Rakib",
-            title: "Jr. Project Coordinator",
-            department: "Business Strategy Engagement",
-            subDepartment: "Project Management",
-          },
-          {
-            id: "5-4-3",
-            name: "Md. Al Imran Tonnoy",
-            title: "Intern",
-            department: "Business Strategy Engagement",
-            subDepartment: "Project Management",
-          },
-          {
-            id: "5-4-4",
-            name: "Nazmul Hassan",
-            title: "Trainee Project Coordinator",
-            department: "Business Strategy Engagement",
-            subDepartment: "Project Management",
-          },
-        ],
-      },
-      {
-        id: "5-5",
         name: "Business Process Management",
         title: "Business Process Management",
         department: "Business Strategy Engagement",
         subDepartment: "Business Process Management",
         children: [
           {
-            id: "5-5-1",
+            id: "5-4-1",
             name: "Shila Rahman",
             title: "Jr. Business Process Coordinator",
             department: "Business Strategy Engagement",
             subDepartment: "Business Process Management",
-          },
+          }
         ],
+      }
+    ]
+  };
+
+  //Top level management
+  const topManagement: Employee = {
+    id: "0",
+    name: "Syed Ahmed Ali",
+    title: "Chief Information Officer",
+    department: "Management",
+    image: "/images/ati-logo.png",
+    children: [
+      {
+        id: "0-1",
+        name: "Software Technology",
+        title: "Software Technology Department",
+        department: "Management",
+        children: [softwareDepartment]
       },
-    ],
-  }
+      {
+        id: "0-2",
+        name: "Infrastructure Technology",
+        title: "Infrastructure Technology Department",
+        department: "Management",
+        children: [infrastructureDepartment]
+      },
+      {
+        id: "0-3",
+        name: "Creative",
+        title: "Creative Department",
+        department: "Management",
+        children: [creativeDepartment]
+      },
+      {
+        id: "0-4",
+        name: "HR & Administration",
+        title: "HR & Administration Department",
+        department: "Management",
+        children: [hrDepartment]
+      },
+      {
+        id: "0-5",
+        name: "Business Strategy",
+        title: "Business Strategy Department",
+        department: "Management",
+        children: [businessDepartment]
+      }
+    ]
+  };
+
+  // // Software Technology Department Data
+  // const softwareDepartment: Employee = {
+  //   id: "1",
+  //   name: "Anisul Islam",
+  //   title: "Head of Software Technology",
+  //   department: "Software Technology",
+  //   image: "/images/ati-logo.png",
+  //   children: [
+  //     {
+  //       id: "1-1",
+  //       name: "Oracle Team",
+  //       title: "Oracle Development",
+  //       department: "Software Technology",
+  //       subDepartment: "Oracle",
+  //       children: [
+  //         {
+  //           id: "1-1-1",
+  //           name: "Shahinoor Akhtar",
+  //           title: "Sr. Programmer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-2",
+  //           name: "Md. Sanwar Hossain",
+  //           title: "Analyst Programmer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-3",
+  //           name: "Md. Muhaimin Sk",
+  //           title: "Analyst Programmer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-4",
+  //           name: "Anik Barua",
+  //           title: "Analyst Programmer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-5",
+  //           name: "Shammi Akhtar",
+  //           title: "Sr. Programmer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-6",
+  //           name: "Nusrat Sultana",
+  //           title: "Jr. Programmer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-7",
+  //           name: "Sabir Ahmed",
+  //           title: "Programmer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-8",
+  //           name: "Shampa Islam",
+  //           title: "Programmer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-9",
+  //           name: "Muhammad Rashidul Alam",
+  //           title: "Programmer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-10",
+  //           name: "Ashraf Siddique",
+  //           title: "Trainee Support Engineer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //         {
+  //           id: "1-1-11",
+  //           name: "Md. Almahamud",
+  //           title: "Trainee Technical Support Engineer",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "1-2",
+  //       name: "Technology Teams",
+  //       title: "Technology Teams",
+  //       department: "Software Technology",
+  //       children: [
+  //         {
+  //           id: "1-2-1",
+  //           name: "Oracle Apex",
+  //           title: "Oracle Apex Development",
+  //           department: "Software Technology",
+  //           subDepartment: "Oracle Apex",
+  //           children: [
+  //             {
+  //               id: "1-2-1-1",
+  //               name: "Md. Jahirul Islam",
+  //               title: "Trainee Technical Support Engineer",
+  //               department: "Software Technology",
+  //               subDepartment: "Oracle Apex",
+  //             },
+  //             {
+  //               id: "1-2-1-2",
+  //               name: "Md. Fahad Hossain",
+  //               title: "Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Oracle Apex",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           id: "1-2-2",
+  //           name: "JAVA",
+  //           title: "Java Development",
+  //           department: "Software Technology",
+  //           subDepartment: "Java",
+  //           children: [
+  //             {
+  //               id: "1-2-2-1",
+  //               name: "Mohammad Jakir Hossain",
+  //               title: "Sr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Java",
+  //             },
+  //             {
+  //               id: "1-2-2-2",
+  //               name: "Md. Jamilul Islam",
+  //               title: "Analyst Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Java",
+  //             },
+  //             {
+  //               id: "1-2-2-3",
+  //               name: "Md. Firoj Mahmud",
+  //               title: "Sr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Java",
+  //             },
+  //             {
+  //               id: "1-2-2-4",
+  //               name: "Md. Aminul Haq",
+  //               title: "Sr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Java",
+  //             },
+  //             {
+  //               id: "1-2-2-5",
+  //               name: "Sakib Ahmed",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Java",
+  //             },
+  //             {
+  //               id: "1-2-2-6",
+  //               name: "Din Islam",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Java",
+  //             },
+  //             {
+  //               id: "1-2-2-7",
+  //               name: "Md. Foysal Ahmed",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Java",
+  //             },
+  //             {
+  //               id: "1-2-2-8",
+  //               name: "Sifat Al Arif",
+  //               title: "Intern",
+  //               department: "Software Technology",
+  //               subDepartment: "Java",
+  //             },
+  //             {
+  //               id: "1-2-2-9",
+  //               name: "Israt Jahan Binta Kabir",
+  //               title: "Trainee Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Java",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           id: "1-2-3",
+  //           name: "PHP",
+  //           title: "PHP Development",
+  //           department: "Software Technology",
+  //           subDepartment: "PHP",
+  //           children: [
+  //             {
+  //               id: "1-2-3-1",
+  //               name: "Md. Aminul Hossain",
+  //               title: "Sr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "PHP",
+  //             },
+  //             {
+  //               id: "1-2-3-2",
+  //               name: "Md. Aminul Haq",
+  //               title: "Sr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "PHP",
+  //             },
+  //             {
+  //               id: "1-2-3-3",
+  //               name: "Md. Shobuj Hossain",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "PHP",
+  //             },
+  //             {
+  //               id: "1-2-3-4",
+  //               name: "Mahrabin Ferdous",
+  //               title: "Trainee Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "PHP",
+  //             },
+  //             {
+  //               id: "1-2-3-5",
+  //               name: "Md. Tahir Uddin",
+  //               title: "Trainee Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "PHP",
+  //             },
+  //             {
+  //               id: "1-2-3-6",
+  //               name: "Muhtasim Fuad Ayon",
+  //               title: "Trainee Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "PHP",
+  //             },
+  //             {
+  //               id: "1-2-3-7",
+  //               name: "Azizul Hakim Anik",
+  //               title: "Trainee Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "PHP",
+  //             },
+  //             {
+  //               id: "1-2-3-8",
+  //               name: "Shahria Sultana Sunnah",
+  //               title: "Trainee Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "PHP",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           id: "1-2-4",
+  //           name: "Mobile APPS",
+  //           title: "Mobile Applications",
+  //           department: "Software Technology",
+  //           subDepartment: "Mobile Apps",
+  //           children: [
+  //             {
+  //               id: "1-2-4-1",
+  //               name: "Md. Akramul Hasan",
+  //               title: "Analyst Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Mobile Apps",
+  //             },
+  //             {
+  //               id: "1-2-4-2",
+  //               name: "Md. Hossain",
+  //               title: "Sr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Mobile Apps",
+  //             },
+  //             {
+  //               id: "1-2-4-3",
+  //               name: "Khan Faizan Akhila",
+  //               title: "Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Mobile Apps",
+  //             },
+  //             {
+  //               id: "1-2-4-4",
+  //               name: "Md. Sobel Rana Tipu",
+  //               title: "Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Mobile Apps",
+  //             },
+  //             {
+  //               id: "1-2-4-5",
+  //               name: "Kazi Moazzem Hossain",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Mobile Apps",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           id: "1-2-5",
+  //           name: "Automation",
+  //           title: "Automation",
+  //           department: "Software Technology",
+  //           subDepartment: "Automation",
+  //           children: [
+  //             {
+  //               id: "1-2-5-1",
+  //               name: "Abu Talha Rocky",
+  //               title: "Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Automation",
+  //             },
+  //             {
+  //               id: "1-2-5-2",
+  //               name: "Robib Rahman",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Automation",
+  //             },
+  //             {
+  //               id: "1-2-5-3",
+  //               name: "Md. Naymur",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Automation",
+  //             },
+  //             {
+  //               id: "1-2-5-4",
+  //               name: "Md. Shakil Ahmed",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "Automation",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           id: "1-2-6",
+  //           name: "MEAN",
+  //           title: "MEAN Stack",
+  //           department: "Software Technology",
+  //           subDepartment: "MEAN",
+  //           children: [
+  //             {
+  //               id: "1-2-6-1",
+  //               name: "Mahfuz Islam",
+  //               title: "Full-Stack Developer",
+  //               department: "Software Technology",
+  //               subDepartment: "MEAN",
+  //             },
+  //             {
+  //               id: "1-2-6-2",
+  //               name: "Md. Golam Muid Talukder",
+  //               title: "Full-Stack Developer",
+  //               department: "Software Technology",
+  //               subDepartment: "MEAN",
+  //             },
+  //             {
+  //               id: "1-2-6-3",
+  //               name: "Rusya Rabbi",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "MEAN",
+  //             },
+  //             {
+  //               id: "1-2-6-4",
+  //               name: "Saad Ahmed",
+  //               title: "Jr. Programmer",
+  //               department: "Software Technology",
+  //               subDepartment: "MEAN",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           id: "1-2-7",
+  //           name: "Python",
+  //           title: "Python Development",
+  //           department: "Software Technology",
+  //           subDepartment: "Python",
+  //           children: [
+  //             {
+  //               id: "1-2-7-1",
+  //               name: "Mohd Zarir",
+  //               title: "Full-stack Developer",
+  //               department: "Software Technology",
+  //               subDepartment: "Python",
+  //             },
+  //             {
+  //               id: "1-2-7-2",
+  //               name: "Anika Anjum",
+  //               title: "Jr. Front End Developer",
+  //               department: "Software Technology",
+  //               subDepartment: "Python",
+  //             },
+  //             {
+  //               id: "1-2-7-3",
+  //               name: "Md. Tarek Aziz",
+  //               title: "Jr. Developer",
+  //               department: "Software Technology",
+  //               subDepartment: "Python",
+  //             },
+  //             {
+  //               id: "1-2-7-4",
+  //               name: "Merzi Hossain",
+  //               title: "Jr. Front End Developer",
+  //               department: "Software Technology",
+  //               subDepartment: "Python",
+  //             },
+  //             {
+  //               id: "1-2-7-5",
+  //               name: "Mohammad Mahtabob Alam",
+  //               title: "Intern",
+  //               department: "Software Technology",
+  //               subDepartment: "Python",
+  //             },
+  //             {
+  //               id: "1-2-7-6",
+  //               name: "Kamrul Hasan Bhuiyan",
+  //               title: "Intern",
+  //               department: "Software Technology",
+  //               subDepartment: "Python",
+  //             },
+  //             {
+  //               id: "1-2-7-7",
+  //               name: "Abu Hasan Al Amin",
+  //               title: "Intern",
+  //               department: "Software Technology",
+  //               subDepartment: "Python",
+  //             },
+  //             {
+  //               id: "1-2-7-8",
+  //               name: "Mubasur Rahman",
+  //               title: "Frontend Developer",
+  //               department: "Software Technology",
+  //               subDepartment: "Python",
+  //             },
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // }
+
+  // // Infrastructure Department Data
+  // const infrastructureDepartment: Employee = {
+  //   id: "2",
+  //   name: "Muhammad Mahedi Hasan",
+  //   title: "Head of Infrastructure & Database",
+  //   department: "Infrastructure Technology",
+  //   image: "/images/ati-logo.png",
+  //   children: [
+  //     {
+  //       id: "2-1",
+  //       name: "DBMS",
+  //       title: "Database Management Systems",
+  //       department: "Infrastructure Technology",
+  //       subDepartment: "DBMS",
+  //       children: [
+  //         {
+  //           id: "2-1-1",
+  //           name: "Md. Sirajul Islam",
+  //           title: "Database Administrator",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "DBMS",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "2-2",
+  //       name: "System Service",
+  //       title: "System Services",
+  //       department: "Infrastructure Technology",
+  //       subDepartment: "System Service",
+  //       children: [
+  //         {
+  //           id: "2-2-1",
+  //           name: "Altmul Rajib Shuvo",
+  //           title: "System Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "System Service",
+  //         },
+  //         {
+  //           id: "2-2-2",
+  //           name: "Asif Reza",
+  //           title: "System Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "System Service",
+  //         },
+  //         {
+  //           id: "2-2-3",
+  //           name: "Md. Shahriar Hossain",
+  //           title: "System Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "System Service",
+  //         },
+  //         {
+  //           id: "2-2-4",
+  //           name: "Md. Zakaria",
+  //           title: "System Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "System Service",
+  //         },
+  //         {
+  //           id: "2-2-5",
+  //           name: "Md. Mafidul Islam",
+  //           title: "System Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "System Service",
+  //         },
+  //         {
+  //           id: "2-2-6",
+  //           name: "Abdul Kadir",
+  //           title: "System Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "System Service",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "2-3",
+  //       name: "Network Service",
+  //       title: "Network Services",
+  //       department: "Infrastructure Technology",
+  //       subDepartment: "Network Service",
+  //       children: [
+  //         {
+  //           id: "2-3-1",
+  //           name: "Md. Tanzimul Hasan",
+  //           title: "Network Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "Network Service",
+  //         },
+  //         {
+  //           id: "2-3-2",
+  //           name: "Md. Shobuj Mondal",
+  //           title: "Network Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "Network Service",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "2-4",
+  //       name: "Hardware Service",
+  //       title: "Hardware Services",
+  //       department: "Infrastructure Technology",
+  //       subDepartment: "Hardware Service",
+  //       children: [
+  //         {
+  //           id: "2-4-1",
+  //           name: "Md. Abdul Latif",
+  //           title: "Hardware Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "Hardware Service",
+  //         },
+  //         {
+  //           id: "2-4-2",
+  //           name: "Md. Romik Babu",
+  //           title: "Hardware Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "Hardware Service",
+  //         },
+  //         {
+  //           id: "2-4-3",
+  //           name: "Md. Jamil Hosen",
+  //           title: "Hardware Engineer",
+  //           department: "Infrastructure Technology",
+  //           subDepartment: "Hardware Service",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // }
+
+  // // Creative Department Data
+  // const creativeDepartment: Employee = {
+  //   id: "3",
+  //   name: "Head of Creative",
+  //   title: "Head of Creative Department",
+  //   department: "Creative",
+  //   image: "/images/ati-logo.png",
+  //   children: [
+  //     {
+  //       id: "3-1",
+  //       name: "UI/UX",
+  //       title: "UI/UX Design",
+  //       department: "Creative",
+  //       subDepartment: "UI/UX",
+  //       children: [
+  //         {
+  //           id: "3-1-1",
+  //           name: "Md. Abdul Aziz Mazumder",
+  //           title: "UI/UX Designer",
+  //           department: "Creative",
+  //           subDepartment: "UI/UX",
+  //         },
+  //         {
+  //           id: "3-1-2",
+  //           name: "Mushfiq Qayyum",
+  //           title: "UI/UX Designer",
+  //           department: "Creative",
+  //           subDepartment: "UI/UX",
+  //         },
+  //         {
+  //           id: "3-1-3",
+  //           name: "Tanvir Paytam",
+  //           title: "UI/UX Designer",
+  //           department: "Creative",
+  //           subDepartment: "UI/UX",
+  //         },
+  //         {
+  //           id: "3-1-4",
+  //           name: "Md. Shakil Ahmed",
+  //           title: "UI/UX Designer",
+  //           department: "Creative",
+  //           subDepartment: "UI/UX",
+  //         },
+  //         {
+  //           id: "3-1-5",
+  //           name: "Bisni Biswas",
+  //           title: "UI/UX Designer",
+  //           department: "Creative",
+  //           subDepartment: "UI/UX",
+  //         },
+  //         {
+  //           id: "3-1-6",
+  //           name: "Zerin Taslim",
+  //           title: "UI/UX Designer",
+  //           department: "Creative",
+  //           subDepartment: "UI/UX",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "3-2",
+  //       name: "Creative",
+  //       title: "Creative Design",
+  //       department: "Creative",
+  //       subDepartment: "Creative Design",
+  //       children: [
+  //         {
+  //           id: "3-2-1",
+  //           name: "Hafiz",
+  //           title: "Creative Designer",
+  //           department: "Creative",
+  //           subDepartment: "Creative Design",
+  //         },
+  //         {
+  //           id: "3-2-2",
+  //           name: "Arinommu Roy",
+  //           title: "Creative Designer",
+  //           department: "Creative",
+  //           subDepartment: "Creative Design",
+  //         },
+  //         {
+  //           id: "3-2-3",
+  //           name: "Farnaz Haque Nim",
+  //           title: "Creative Designer",
+  //           department: "Creative",
+  //           subDepartment: "Creative Design",
+  //         },
+  //         {
+  //           id: "3-2-4",
+  //           name: "Md. Ashequl Alam Raafe",
+  //           title: "Creative Designer",
+  //           department: "Creative",
+  //           subDepartment: "Creative Design",
+  //         },
+  //         {
+  //           id: "3-2-5",
+  //           name: "Rahanur Rahman",
+  //           title: "Creative Designer",
+  //           department: "Creative",
+  //           subDepartment: "Creative Design",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "3-3",
+  //       name: "CSS",
+  //       title: "CSS Development",
+  //       department: "Creative",
+  //       subDepartment: "CSS",
+  //       children: [],
+  //     },
+  //   ],
+  // }
+
+  // // HR Department Data
+  // const hrDepartment: Employee = {
+  //   id: "4",
+  //   name: "Md. Mizan Hossain",
+  //   title: "Human Resource Management",
+  //   department: "HR & Administration",
+  //   image: "/images/ati-logo.png",
+  //   children: [
+  //     {
+  //       id: "4-1",
+  //       name: "Mizanur Rahman",
+  //       title: "Executive, Admin",
+  //       department: "HR & Administration",
+  //       subDepartment: "Admin",
+  //       children: [
+  //         {
+  //           id: "4-1-1",
+  //           name: "Md. Naim Uddin",
+  //           title: "Sr. Office Assistant",
+  //           department: "HR & Administration",
+  //           subDepartment: "Admin",
+  //         },
+  //         {
+  //           id: "4-1-2",
+  //           name: "Md. Mamun ur Rashid",
+  //           title: "Office Guard",
+  //           department: "HR & Administration",
+  //           subDepartment: "Admin",
+  //         },
+  //         {
+  //           id: "4-1-3",
+  //           name: "Md. Sagar Nahar",
+  //           title: "Office Guard",
+  //           department: "HR & Administration",
+  //           subDepartment: "Admin",
+  //         },
+  //         {
+  //           id: "4-1-4",
+  //           name: "Md. Mojibur Rahman",
+  //           title: "Cook",
+  //           department: "HR & Administration",
+  //           subDepartment: "Admin",
+  //         },
+  //         {
+  //           id: "4-1-5",
+  //           name: "Nazma Begum",
+  //           title: "Assistant Cook",
+  //           department: "HR & Administration",
+  //           subDepartment: "Admin",
+  //         },
+  //         {
+  //           id: "4-1-6",
+  //           name: "Md. Nurul Islam",
+  //           title: "Cleaner",
+  //           department: "HR & Administration",
+  //           subDepartment: "Admin",
+  //         },
+  //         {
+  //           id: "4-1-7",
+  //           name: "Md. Anup Rahman",
+  //           title: "Cleaner",
+  //           department: "HR & Administration",
+  //           subDepartment: "Admin",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "4-2",
+  //       name: "Md. Sajjad Hossain",
+  //       title: "HR Executive",
+  //       department: "HR & Administration",
+  //       subDepartment: "HR",
+  //       children: [],
+  //     },
+  //     {
+  //       id: "4-3",
+  //       name: "Obidullah Jr.",
+  //       title: "Executive Billing & Purchase",
+  //       department: "HR & Administration",
+  //       subDepartment: "Billing & Purchase",
+  //       children: [],
+  //     },
+  //   ],
+  // }
+
+  // // Business Strategy Department Data
+  // const businessDepartment: Employee = {
+  //   id: "5",
+  //   name: "Abu Saleh",
+  //   title: "Head of Business Strategy Engagement",
+  //   department: "Business Strategy Engagement",
+  //   image: "/images/ati-logo.png",
+  //   children: [
+  //     {
+  //       id: "5-1",
+  //       name: "Business Development",
+  //       title: "Business Development",
+  //       department: "Business Strategy Engagement",
+  //       subDepartment: "Business Development",
+  //       children: [
+  //         {
+  //           id: "5-1-1",
+  //           name: "Md. Shaheed Hossain",
+  //           title: "Business Development Associate",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Business Development",
+  //         },
+  //         {
+  //           id: "5-1-2",
+  //           name: "Ms. Tahsin Kamal",
+  //           title: "Senior Business Development Associate",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Business Development",
+  //         },
+  //         {
+  //           id: "5-1-3",
+  //           name: "Rahad Hasan Gayen",
+  //           title: "Jr. Business Process Coordinator",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Business Development",
+  //         },
+  //         {
+  //           id: "5-1-4",
+  //           name: "Md. Sakhawat Hossain Rabbi",
+  //           title: "Business Development Associate",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Business Development",
+  //         },
+  //         {
+  //           id: "5-1-5",
+  //           name: "Foyzal Hasan Shakil",
+  //           title: "Marketing Associate",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Business Development",
+  //         },
+  //         {
+  //           id: "5-1-6",
+  //           name: "Fahimidun Nabi",
+  //           title: "Marketing Associate",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Business Development",
+  //         },
+  //         {
+  //           id: "5-1-7",
+  //           name: "Syeda Ramima Rahana Nadia",
+  //           title: "Business Development Associate",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Business Development",
+  //         },
+  //         {
+  //           id: "5-1-8",
+  //           name: "Ananna Rahman",
+  //           title: "Business Development Associate",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Business Development",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "5-2",
+  //       name: "Customer Service and Support",
+  //       title: "Customer Service and Support",
+  //       department: "Business Strategy Engagement",
+  //       subDepartment: "Customer Service and Support",
+  //       children: [
+  //         {
+  //           id: "5-2-1",
+  //           name: "Md. Mahfuzur Rahman Mithu",
+  //           title: "CSR Representative",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Customer Service and Support",
+  //         },
+  //         {
+  //           id: "5-2-2",
+  //           name: "Sumaya Sultana",
+  //           title: "Assistant Service Lead",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Customer Service and Support",
+  //         },
+  //         {
+  //           id: "5-2-3",
+  //           name: "Sadia Afrin",
+  //           title: "Trainee CSR Representative",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Customer Service and Support",
+  //         },
+  //         {
+  //           id: "5-2-4",
+  //           name: "Morzina Rashid",
+  //           title: "CSR Representative",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Customer Service and Support",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "5-3",
+  //       name: "Software Quality Assurance",
+  //       title: "Software Quality Assurance",
+  //       department: "Business Strategy Engagement",
+  //       subDepartment: "Software Quality Assurance",
+  //       children: [
+  //         {
+  //           id: "5-3-1",
+  //           name: "Md. Toufik Taj",
+  //           title: "Jr. Software Quality Assurance",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Software Quality Assurance",
+  //         },
+  //         {
+  //           id: "5-3-2",
+  //           name: "Nrittisha Yasmin",
+  //           title: "Jr. Software Quality Assurance",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Software Quality Assurance",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "5-4",
+  //       name: "Project Management",
+  //       title: "Project Management",
+  //       department: "Business Strategy Engagement",
+  //       subDepartment: "Project Management",
+  //       children: [
+  //         {
+  //           id: "5-4-1",
+  //           name: "Farha Tabassum Chowdhury",
+  //           title: "Jr. Project Coordinator",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Project Management",
+  //         },
+  //         {
+  //           id: "5-4-2",
+  //           name: "Md. Moinul Islam Rakib",
+  //           title: "Jr. Project Coordinator",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Project Management",
+  //         },
+  //         {
+  //           id: "5-4-3",
+  //           name: "Md. Al Imran Tonnoy",
+  //           title: "Intern",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Project Management",
+  //         },
+  //         {
+  //           id: "5-4-4",
+  //           name: "Nazmul Hassan",
+  //           title: "Trainee Project Coordinator",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Project Management",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: "5-5",
+  //       name: "Business Process Management",
+  //       title: "Business Process Management",
+  //       department: "Business Strategy Engagement",
+  //       subDepartment: "Business Process Management",
+  //       children: [
+  //         {
+  //           id: "5-5-1",
+  //           name: "Shila Rahman",
+  //           title: "Jr. Business Process Coordinator",
+  //           department: "Business Strategy Engagement",
+  //           subDepartment: "Business Process Management",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // }
 
   // Get department data based on active tab
   const getDepartmentData = () => {
@@ -1166,12 +2236,12 @@ export default function OrgChartPage() {
             )}
             <h3
               className={`font-semibold ${isDepartmentHead
-                  ? "text-lg text-navy-800"
-                  : isMainBranch
-                    ? "text-md text-blue-800"
-                    : isSubDepartment
-                      ? "text-md"
-                      : "text-sm"
+                ? "text-lg text-navy-800"
+                : isMainBranch
+                  ? "text-md text-blue-800"
+                  : isSubDepartment
+                    ? "text-md"
+                    : "text-sm"
                 }`}
             >
               {node.name}

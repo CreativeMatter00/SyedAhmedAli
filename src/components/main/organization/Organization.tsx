@@ -153,12 +153,12 @@ export default function OrganizationPage() {
     },
     {
       id: "11",
-      name: "Mahfuz Alam",
+      name: "Mahfuz Islam",
       designation: "Full-Stack Developer",
       department: "Software Technology",
       subDepartment: "MEAN",
       role: "Team Lead",
-      email: "mahfuzalam@atilimited.net",
+      email: "mahfuzislam@atilimited.net",
       status: "existing",
     },
     {
@@ -203,7 +203,7 @@ export default function OrganizationPage() {
     },
     {
       id: "16",
-      name: "Ashraf Rajib Shovo",
+      name: "Alimul Rajib Shuvo",
       designation: "Sr. System & Support Engineer",
       department: "Infrastructure Technology",
       subDepartment: "Network Service",
@@ -213,7 +213,7 @@ export default function OrganizationPage() {
     },
     {
       id: "17",
-      name: "Adil Reza",
+      name: "Asif Reza",
       designation: "Sr. Infrastructure Engineer",
       department: "Infrastructure Technology",
       subDepartment: "Server Service",
