@@ -1105,50 +1105,50 @@ export default function OrgChartPage() {
   };
 
   //Top level management
-  const topManagement: Employee = {
-    id: "0",
-    name: "Syed Ahmed Ali",
-    title: "Chief Information Officer",
-    department: "Management",
-    image: "/images/ati-logo.png",
-    children: [
-      {
-        id: "0-1",
-        name: "Software Technology",
-        title: "Software Technology Department",
-        department: "Management",
-        children: [softwareDepartment]
-      },
-      {
-        id: "0-2",
-        name: "Infrastructure Technology",
-        title: "Infrastructure Technology Department",
-        department: "Management",
-        children: [infrastructureDepartment]
-      },
-      {
-        id: "0-3",
-        name: "Creative",
-        title: "Creative Department",
-        department: "Management",
-        children: [creativeDepartment]
-      },
-      {
-        id: "0-4",
-        name: "HR & Administration",
-        title: "HR & Administration Department",
-        department: "Management",
-        children: [hrDepartment]
-      },
-      {
-        id: "0-5",
-        name: "Business Strategy",
-        title: "Business Strategy Department",
-        department: "Management",
-        children: [businessDepartment]
-      }
-    ]
-  };
+  // const topManagement: Employee = {
+  //   id: "0",
+  //   name: "Syed Ahmed Ali",
+  //   title: "Chief Information Officer",
+  //   department: "Management",
+  //   image: "/images/ati-logo.png",
+  //   children: [
+  //     {
+  //       id: "0-1",
+  //       name: "Software Technology",
+  //       title: "Software Technology Department",
+  //       department: "Management",
+  //       children: [softwareDepartment]
+  //     },
+  //     {
+  //       id: "0-2",
+  //       name: "Infrastructure Technology",
+  //       title: "Infrastructure Technology Department",
+  //       department: "Management",
+  //       children: [infrastructureDepartment]
+  //     },
+  //     {
+  //       id: "0-3",
+  //       name: "Creative",
+  //       title: "Creative Department",
+  //       department: "Management",
+  //       children: [creativeDepartment]
+  //     },
+  //     {
+  //       id: "0-4",
+  //       name: "HR & Administration",
+  //       title: "HR & Administration Department",
+  //       department: "Management",
+  //       children: [hrDepartment]
+  //     },
+  //     {
+  //       id: "0-5",
+  //       name: "Business Strategy",
+  //       title: "Business Strategy Department",
+  //       department: "Management",
+  //       children: [businessDepartment]
+  //     }
+  //   ]
+  // };
 
   // // Software Technology Department Data
   // const softwareDepartment: Employee = {
